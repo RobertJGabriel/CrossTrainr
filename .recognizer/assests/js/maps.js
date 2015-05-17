@@ -3,7 +3,7 @@
  * https://github.com/equiet/recognizer
  */
 
-var __recognizer640042153 = (function () {
+var __recognizer54003505 = (function () {
     'use strict';
 
     var global = this;
@@ -159,70 +159,70 @@ var __recognizer640042153 = (function () {
 
 var map;
 function initialize() {
-    __recognizer640042153.logEntry([
+    __recognizer54003505.logEntry([
         7,
         9,
         7,
         19
     ], arguments);
     var mapOptions = { zoom: 11 };
-    map = new (__recognizer640042153.logProbe([
+    map = new (__recognizer54003505.logProbe([
         11,
         24,
         11,
         27
-    ], __recognizer640042153.logProbe([
+    ], __recognizer54003505.logProbe([
         11,
         19,
         11,
         23
-    ], __recognizer640042153.logProbe([
+    ], __recognizer54003505.logProbe([
         11,
         12,
         11,
         18
     ], google).maps).Map))(function () {
-        var obj = __recognizer640042153.logProbe([
+        var obj = __recognizer54003505.logProbe([
                 11,
                 28,
                 11,
                 36
-            ], document), fn = __recognizer640042153.logProbe([
+            ], document), fn = __recognizer54003505.logProbe([
                 11,
                 37,
                 11,
                 51
             ], obj.getElementById);
         return fn.apply(obj, arguments);
-    }.bind(this)('map-canvas'), __recognizer640042153.logProbe([
+    }.bind(this)('map-canvas'), __recognizer54003505.logProbe([
         12,
         6,
         12,
         16
     ], mapOptions));
-    if (__recognizer640042153.logProbe([
+    if (__recognizer54003505.logProbe([
             15,
             15,
             15,
             26
-        ], __recognizer640042153.logProbe([
+        ], __recognizer54003505.logProbe([
             15,
             5,
             15,
             14
         ], navigator).geolocation)) {
         (function () {
-            var obj = __recognizer640042153.logProbe([
+            var obj = __recognizer54003505.logProbe([
                     16,
                     14,
                     16,
                     25
-                ], __recognizer640042153.logProbe([
+                ], __recognizer54003505.logProbe([
                     16,
                     4,
                     16,
                     13
-                ], navigator).geolocation), fn = __recognizer640042153.logProbe([
+                ], navigator).geolocation), fn = __recognizer54003505.logProbe([
                     16,
                     26,
                     16,
@@ -230,69 +230,69 @@ function initialize() {
                 ], obj.getCurrentPosition);
             return fn.apply(obj, arguments);
         }.bind(this)(function (position) {
-            __recognizer640042153.logEntry([
+            __recognizer54003505.logEntry([
                 16,
                 45,
                 16,
                 53
             ], arguments);
-            var pos = new (__recognizer640042153.logProbe([
+            var pos = new (__recognizer54003505.logProbe([
                     17,
                     32,
                     17,
                     38
-                ], __recognizer640042153.logProbe([
+                ], __recognizer54003505.logProbe([
                     17,
                     27,
                     17,
                     31
-                ], __recognizer640042153.logProbe([
+                ], __recognizer54003505.logProbe([
                     17,
                     20,
                     17,
                     26
-                ], google).maps).LatLng))(__recognizer640042153.logProbe([
+                ], google).maps).LatLng))(__recognizer54003505.logProbe([
                     17,
                     55,
                     17,
                     63
-                ], __recognizer640042153.logProbe([
+                ], __recognizer54003505.logProbe([
                     17,
                     48,
                     17,
                     54
-                ], __recognizer640042153.logProbe([
+                ], __recognizer54003505.logProbe([
                     17,
                     39,
                     17,
                     47
-                ], position).coords).latitude), __recognizer640042153.logProbe([
+                ], position).coords).latitude), __recognizer54003505.logProbe([
                     18,
                     55,
                     18,
                     64
-                ], __recognizer640042153.logProbe([
+                ], __recognizer54003505.logProbe([
                     18,
                     48,
                     18,
                     54
-                ], __recognizer640042153.logProbe([
+                ], __recognizer54003505.logProbe([
                     18,
                     39,
                     18,
                     47
                 ], position).coords).longitude));
-            var infowindow = new (__recognizer640042153.logProbe([
+            var infowindow = new (__recognizer54003505.logProbe([
                     20,
                     39,
                     20,
                     49
-                ], __recognizer640042153.logProbe([
+                ], __recognizer54003505.logProbe([
                     20,
                     34,
                     20,
                     38
-                ], __recognizer640042153.logProbe([
+                ], __recognizer54003505.logProbe([
                     20,
                     27,
                     20,
@@ -302,37 +302,37 @@ function initialize() {
                     position: pos
                 });
             (function () {
-                var obj = __recognizer640042153.logProbe([
+                var obj = __recognizer54003505.logProbe([
                         25,
                         6,
                         25,
                         9
-                    ], map), fn = __recognizer640042153.logProbe([
+                    ], map), fn = __recognizer54003505.logProbe([
                         25,
                         10,
                         25,
                         19
                     ], obj.setCenter);
                 return fn.apply(obj, arguments);
-            }.bind(this)(__recognizer640042153.logProbe([
+            }.bind(this)(__recognizer54003505.logProbe([
                 25,
                 20,
                 25,
                 23
             ], pos)));
         }, function () {
-            __recognizer640042153.logEntry([
+            __recognizer54003505.logEntry([
                 26,
                 7,
                 26,
                 15
             ], arguments);
-            __recognizer640042153.logProbe([
+            __recognizer54003505.logProbe([
                 27,
                 6,
                 27,
                 31
-            ], __recognizer640042153.logProbe([
+            ], __recognizer54003505.logProbe([
                 27,
                 6,
                 27,
@@ -340,12 +340,12 @@ function initialize() {
             ], handleNoGeolocation)(true));
         }));
     } else {
-        __recognizer640042153.logProbe([
+        __recognizer54003505.logProbe([
             31,
             4,
             31,
             30
-        ], __recognizer640042153.logProbe([
+        ], __recognizer54003505.logProbe([
             31,
             4,
             31,
@@ -354,13 +354,13 @@ function initialize() {
     }
 }
 function handleNoGeolocation(errorFlag) {
-    __recognizer640042153.logEntry([
+    __recognizer54003505.logEntry([
         35,
         9,
         35,
         28
     ], arguments);
-    if (__recognizer640042153.logProbe([
+    if (__recognizer54003505.logProbe([
             36,
             6,
             36,
@@ -372,17 +372,17 @@ function handleNoGeolocation(errorFlag) {
     }
     var options = {
             map: map,
-            position: new (__recognizer640042153.logProbe([
+            position: new (__recognizer54003505.logProbe([
                 44,
                 30,
                 44,
                 36
-            ], __recognizer640042153.logProbe([
+            ], __recognizer54003505.logProbe([
                 44,
                 25,
                 44,
                 29
-            ], __recognizer640042153.logProbe([
+            ], __recognizer54003505.logProbe([
                 44,
                 18,
                 44,
@@ -390,46 +390,46 @@ function handleNoGeolocation(errorFlag) {
             ], google).maps).LatLng))(60, 105),
             content: content
         };
-    var infowindow = new (__recognizer640042153.logProbe([
+    var infowindow = new (__recognizer54003505.logProbe([
             48,
             35,
             48,
             45
-        ], __recognizer640042153.logProbe([
+        ], __recognizer54003505.logProbe([
             48,
             30,
             48,
             34
-        ], __recognizer640042153.logProbe([
+        ], __recognizer54003505.logProbe([
             48,
             23,
             48,
             29
-        ], google).maps).InfoWindow))(__recognizer640042153.logProbe([
+        ], google).maps).InfoWindow))(__recognizer54003505.logProbe([
             48,
             46,
             48,
             53
         ], options));
     (function () {
-        var obj = __recognizer640042153.logProbe([
+        var obj = __recognizer54003505.logProbe([
                 49,
                 2,
                 49,
                 5
-            ], map), fn = __recognizer640042153.logProbe([
+            ], map), fn = __recognizer54003505.logProbe([
                 49,
                 6,
                 49,
                 15
             ], obj.setCenter);
         return fn.apply(obj, arguments);
-    }.bind(this)(__recognizer640042153.logProbe([
+    }.bind(this)(__recognizer54003505.logProbe([
         49,
         24,
         49,
         32
-    ], __recognizer640042153.logProbe([
+    ], __recognizer54003505.logProbe([
         49,
         16,
         49,
@@ -437,34 +437,34 @@ function handleNoGeolocation(errorFlag) {
     ], options).position)));
 }
 (function () {
-    var obj = __recognizer640042153.logProbe([
+    var obj = __recognizer54003505.logProbe([
             52,
             12,
             52,
             17
-        ], __recognizer640042153.logProbe([
+        ], __recognizer54003505.logProbe([
             52,
             7,
             52,
             11
-        ], __recognizer640042153.logProbe([
+        ], __recognizer54003505.logProbe([
             52,
             0,
             52,
             6
-        ], google).maps).event), fn = __recognizer640042153.logProbe([
+        ], google).maps).event), fn = __recognizer54003505.logProbe([
             52,
             18,
             52,
             32
         ], obj.addDomListener);
     return fn.apply(obj, arguments);
-}.bind(this)(__recognizer640042153.logProbe([
+}.bind(this)(__recognizer54003505.logProbe([
     52,
     33,
     52,
     39
-], window), 'load', __recognizer640042153.logProbe([
+], window), 'load', __recognizer54003505.logProbe([
     52,
     49,
     52,
